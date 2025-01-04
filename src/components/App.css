@@ -1,0 +1,149 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  /* App Container */
+  .app {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Language Selector */
+  .language-selector {
+    margin-bottom: 30px;
+  }
+  
+  .language-button {
+    margin: 10px;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #6a11cb;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .language-button:hover {
+    transform: scale(1.05);
+    background-color: #f3f3f3;
+  }
+  
+  /* Flashcard Component */
+  .flashcard .card {
+    width: 300px;
+    height: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .flashcard .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .controls button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background: #fff;
+    color: #6a11cb;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .controls button:hover {
+    background: #6a11cb;
+    color: #fff;
+    transform: scale(1.05);
+  }
+  
+  /* Mastered List */
+  .mastered-list {
+    margin-top: 50px; /* Increased margin for spacing above */
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .mastered-list h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .mastered-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .mastered-list li {
+    margin: 8px 0;
+    font-size: 1.1rem;
+    text-align: left;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .flashcard .card {
+      width: 90%;
+      height: 150px;
+    }
+  
+    .controls button {
+      font-size: 0.9rem;
+      padding: 8px 15px;
+    }
+  
+    .mastered-list {
+      padding: 10px;
+    }
+  }
+  
