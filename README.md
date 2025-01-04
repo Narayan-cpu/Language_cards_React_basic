@@ -3,7 +3,7 @@
 
 **Language Flashcards** is a React-based application designed to help users learn new languages through interactive flashcards. Whether you're expanding your vocabulary or mastering grammar, this app is your perfect study companion!
 
-public\Screenshot (4).png
+Language_cards_React_basic\public\Screenshot (4).png
 
 
 ---
