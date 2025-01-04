@@ -71,7 +71,7 @@ Contributions are always welcome! Here's how you can help:
 ## 📧 Contact
 
 - **Project Maintainer**: Narayan Naik
-- Email: naiknarayanp557@email@example.com  
+- Email: naiknarayanp557@email.com  
 
 
 ---
